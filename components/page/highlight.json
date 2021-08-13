@@ -48,9 +48,6 @@
       ],
       "default": "right"
     },
-    "games": {
-      "collection": "game"
-    },
     "buttonLink": {
       "type": "string",
       "required": true
