@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "whishlists",
+  "collectionName": "wishlists",
   "info": {
     "name": "Wishlist",
     "description": ""

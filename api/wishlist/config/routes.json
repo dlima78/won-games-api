@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/whishlists",
-      "handler": "whishlist.find",
+      "path": "/wishlists",
+      "handler": "wishlist.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/whishlists/count",
-      "handler": "whishlist.count",
+      "path": "/wishlists/count",
+      "handler": "wishlist.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/whishlists/:id",
-      "handler": "whishlist.findOne",
+      "path": "/wishlists/:id",
+      "handler": "wishlist.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/whishlists",
-      "handler": "whishlist.create",
+      "path": "/wishlists",
+      "handler": "wishlist.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/whishlists/:id",
-      "handler": "whishlist.update",
+      "path": "/wishlists/:id",
+      "handler": "wishlist.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/whishlists/:id",
-      "handler": "whishlist.delete",
+      "path": "/wishlists/:id",
+      "handler": "wishlist.delete",
       "config": {
         "policies": []
       }
