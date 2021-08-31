@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "wishlists",
   "info": {
-    "name": "Wishlist",
-    "description": ""
+    "name": "Wishlist"
   },
   "options": {
     "increments": true,
@@ -12,7 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "users": {
+    "user": {
       "plugin": "users-permissions",
       "model": "user"
     },
